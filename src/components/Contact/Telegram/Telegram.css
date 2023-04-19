@@ -1,0 +1,161 @@
+
+
+.telegram{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    row-gap: 20px;
+
+
+}
+
+.input{
+
+    width: 280px;
+    height: 50px;
+    background: none;
+    border:1px solid rgba(0, 0, 0, 0.54);
+    text-indent: 20px;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(6, 111, 99, 0.85);
+    font-size: 20px;
+
+
+
+}
+
+
+/*.input::placeholder{*/
+/*    text-indent: 20px;*/
+/*}*/
+
+.telegram button{
+    width: 280px;
+    height: 50px;
+    background: none;
+    text-align: center;
+    display: inline-block;
+    /*text-indent: 20px;*/
+    /*border:1px solid rgba(0, 0, 0, 0.54);*/
+    font-size: 20px;
+    opacity: 0.6;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    /*color: rgba(6, 111, 99, 0.82);*/
+
+}
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+@media screen and (max-width: 1200px){
+
+
+
+}
+@media screen and (max-width:996px){
+
+    .telegram{
+        flex-direction: column;
+        row-gap: 8px;
+
+    }
+
+    .input{
+        width: 200px;
+        font-size: 17px;
+        height: 30px;
+
+    }
+    .telegram button{
+        width: 200px;
+        height: 30px;
+        font-size: 15px;
+        padding:5px;
+    }
+}
+
+
+@media screen and (max-width:768px){
+    .input{
+        width: 166px;
+        height: 30px;
+        font-size: 14px;
+    }
+    .telegram button{
+        width: 166px;
+        height: 30px;
+        font-size: 14px;
+        padding:5px;
+    }
+
+
+}
+
+@media screen and (max-width:576px){
+    .input{
+        width: 80px;
+        height: 20px;
+        font-size: 8px;
+    }
+
+    .telegram button{
+        width: 80px;
+        height: 20px;
+        font-size: 8px;
+    }
+
+
+
+
+}
+
+@media screen and  (max-width: 390px){
+
+
+
+    .input{
+        width:86px;
+        height: 18px;
+        font-size: 9px;
+        text-indent: 8px;
+
+    }
+    .telegram button{
+        width:86px;
+        height: 18px;
+        font-size: 8px;
+        padding: 1px;
+
+
+    }
+
+
+}
+
+@media screen and (max-width: 320px){
+    .input{
+        width:50px;
+        height: 10px;
+        font-size: 6px;
+        text-indent: 8px;
+
+    }
+    .telegram button{
+        width:50px;
+        height: 10px;
+        font-size: 6px;
+        padding: 1px;
+
+
+    }
+}

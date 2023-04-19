@@ -1,0 +1,215 @@
+
+
+
+#contact{
+    padding:150px 0;
+    background-image:url('https://forbo.azureedge.net/forboimages/30909/1180x664_Marmoleum_Walton_171-1.webp');
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+.box__contact{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 30px;
+
+
+}
+
+.contact__title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: rgba(6, 111, 99, 0.89);
+    /*opacity: 0.6;*/
+    font-weight: bold;
+}
+.contact__text{
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+    color:black;
+    opacity: 0.6;
+    font-weight: bold;
+
+}
+
+@media screen and (max-width: 1200px){
+
+
+
+
+}
+
+@media screen and (max-width:996px){
+    #contact{
+        height: 400px;
+        padding:200px 0;
+        max-width: 100%;
+
+    }
+    .box__contact{
+
+        justify-content: flex-end;
+        display: flex;
+        flex-direction: initial;
+
+    }
+
+    .contact__title{
+        position: relative;
+        bottom: 191px;
+        font-size: 23px;
+        left: 222px;
+
+    }
+    .contact__text{
+        position: relative;
+        bottom: 145px;
+        font-size: 15px;
+        right: 50px;
+        font-weight: bold;
+
+    }
+}
+
+@media screen and (max-width:768px){
+    #contact{
+        max-width: 100%;
+        height: 400px;
+        margin-top: 60px;
+    }
+
+    .box__contact{
+
+
+        display: flex;
+        flex-direction: initial;
+
+    }
+
+    .contact__title{
+        position: relative;
+        bottom: 207px;
+        font-size: 18px;
+        left: 194px;
+        font-weight: bold;
+
+
+    }
+    .contact__text{
+        position: relative;
+        bottom: 160px;
+        font-size: 15px;
+        right:67px;
+
+    }
+}
+
+@media screen and (max-width:576px){
+    #contact{
+        width: 100%;
+        height: 312px;
+        padding:150px 0;
+
+
+
+    }
+    .box__contact{
+
+
+        display: flex;
+        flex-direction: initial;
+
+    }
+
+    .contact__title{
+        font-size: 14px;
+        position: relative;
+        bottom: 154px;
+        left: 134px;
+        font-weight: bold;
+    }
+
+
+    .contact__text{
+        position: relative;
+        bottom: 112px;
+        font-size: 11px;
+        right: 0px;
+
+
+    }
+}
+
+@media screen and  (max-width: 390px){
+    #contact{
+        padding:100px 0;
+        width: 100%;
+        height: 150px;
+
+    }
+    .box__contact{
+        justify-content: flex-end;
+        display: flex;
+        flex-direction: initial;
+
+    }
+
+    .contact__title{
+
+        font-size: 12px;
+        position: relative;
+        bottom: 107px;
+        left: 94px;
+
+    }
+    .contact__text{
+        position: relative;
+        bottom: 77px;
+        font-size: 8px;
+        right: 16px;
+    }
+
+    }
+
+
+@media screen and (max-width: 320px){
+    #contact{
+        padding:100px 0;
+        width: 100%;
+        height: 100px;
+
+    }
+    .box__contact{
+
+        justify-content: flex-end;
+        display: flex;
+        flex-direction: initial;
+
+    }
+
+    .contact__title{
+        font-size: 12px;
+        position: relative;
+        bottom: 107px;
+        left: 94px;;
+
+    }
+    .contact__text{
+        position: relative;
+        bottom:80px;
+        font-size: 8px;
+
+
+    }
+}

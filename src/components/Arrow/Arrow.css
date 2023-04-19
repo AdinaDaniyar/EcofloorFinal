@@ -1,0 +1,130 @@
+.arrow__img{
+
+    width: 40px;
+    height: 40px;
+}
+
+.arrow{
+    position: fixed;
+    bottom:20px;
+    right:10px;
+    display: none;
+    cursor: pointer;
+}
+.show{
+    display: block;
+}
+
+@media screen and (max-width: 1200px){
+    .arrow__img{
+
+        width: 40px;
+        height: 40px;
+    }
+
+    .arrow{
+        position: fixed;
+        bottom:20px;
+        right:10px;
+        display: none;
+        cursor: pointer;
+    }
+    .show{
+        display: block;
+    }
+}
+
+@media screen and (max-width:996px){
+    .arrow__img{
+
+        width: 36px;
+        height: 34px
+    }
+
+    .arrow{
+        position: fixed;
+        bottom:15px;
+        right:16px;
+        display: none;
+        cursor: pointer;
+    }
+    .show{
+        display: block;
+    }
+}
+
+@media screen and (max-width:768px){
+    .arrow__img{
+
+        width: 25px;
+        height: 25px;
+    }
+
+    .arrow{
+        position: fixed;
+        bottom:20px;
+        right:10px;
+        display: none;
+        cursor: pointer;
+    }
+    .show{
+        display: block;
+    }
+}
+
+@media screen and (max-width:576px){
+    .arrow__img{
+
+        width: 18px;
+        height: 18px;
+    }
+
+    .arrow{
+        position: fixed;
+        bottom:0;
+        right:0;
+        display: none;
+        cursor: pointer;
+    }
+    .show{
+        display: block;
+    }
+}
+
+@media screen and  (max-width: 390px){
+    .arrow__img{
+
+        width: 18px;
+        height: 18px;
+    }
+
+    .arrow{
+        position: fixed;
+        bottom:0;
+        right:0;
+        display: none;
+        cursor: pointer;
+    }
+    .show{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .arrow__img{
+
+        width: 10px;
+        height: 10px;
+    }
+
+    .arrow{
+        position: fixed;
+        bottom:0;
+        right:5px;
+        display: none;
+        cursor: pointer;
+    }
+    .show{
+        display: block;
+    }
+}
