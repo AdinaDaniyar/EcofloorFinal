@@ -115,6 +115,9 @@
 
         width: 10px;
         height: 10px;
+        position: absolute;
+        right: 30px;
+        bottom: 14px;
     }
 
     .arrow{
@@ -123,6 +126,7 @@
         right:5px;
         display: none;
         cursor: pointer;
+
     }
     .show{
         display: block;

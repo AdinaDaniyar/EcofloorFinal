@@ -63,21 +63,24 @@
 
 .footer__contact h3{
     position: absolute;
-    right: 0;
-    bottom: 69px;
-    color: black;
-    opacity: 0.6;
+    right: -41px;
+
     font-weight: inherit;
-    font-size: 17px;
+    color: #000;
+    opacity: .6;
+
+    font-size: 18px;
+    bottom: 67px;
 }
 
 .footer__contact p{
     position: absolute;
-    right: 0;
-    bottom: 0;
+
+    bottom: -3px;
     color:black;
-    opacity: 0.6;
-    font-size: 20px;
+
+    font-size: 18px;
+    right: -43px;
 }
 
 @media screen and (max-width: 1200px){
@@ -285,7 +288,8 @@
     .footer__contact h3{
         position: absolute;
         right: 24px;
-        bottom: 29px;
+
+        bottom: 22px;
         font-weight: inherit;
         font-size: 9px;
 
@@ -294,7 +298,7 @@
     .footer__contact p{
         position: absolute;
         right: 22px;
-        bottom: 3px;
+        bottom: -3px;
         font-size: 9px
     }
     .box__footer li{
@@ -356,7 +360,7 @@
 
     .footer__contact h3{
         position: absolute;
-        left: 299px;
+         right: 0;
         bottom: 20px;
         font-weight: inherit;
         font-size: 8px;
@@ -432,18 +436,16 @@
 
     .footer__contact h3{
         position: absolute;
-        right: -30px;
-        bottom: 24px;
-        font-weight: inherit;
-        font-size: 5px;
-
+        right: 31px;
+        bottom: 18px;
+        font-size: 6px;
     }
 
     .footer__contact p{
         position: absolute;
-        right: -30px;
-        bottom: 10px;
-        font-size: 4px;
+        right: 31px;
+        bottom: 5px;
+        font-size: 6px;
     }
     .box__footer li{
         font-size: 7px;

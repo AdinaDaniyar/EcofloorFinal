@@ -194,16 +194,16 @@
         position: absolute;
         top:50px;
         left:70px;
-        font-size: 15px;
+        font-size: 12px;
 
 
     }
     .cover__text{
         position: absolute;
-        top:60px;
-        left:70px;
-        font-size: 13px;
-        opacity: 0.6;
+        top: 70px;
+        left: 65px;
+        font-size: 8px;
+
 
     }
 }
